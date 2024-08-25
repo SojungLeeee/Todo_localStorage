@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="todo-container">
+        <h1>★ Todo List ★</h1>
+        <div id="inputField">
+          <input type="text" id="todoInput" placeholder="할 일 추가하기" onkeydown="keyCodeCheck()">
+          <button type="button" id="addBtn">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <ul id="todoList">
+      
+        </ul>
+        <div class="delete-btn-wrap">
+            <button>전체 삭제</button>
+        </div>
+    </div>
+    
+</body>
+<script src="todo.js"></script> 
+<!-- body 아래에 script를 넣어주면서 addEventListener을 못 불러오는 오류 발생 X -->
+</html>
