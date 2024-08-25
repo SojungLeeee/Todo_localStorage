@@ -15,7 +15,7 @@ https://velog.io/@seoyaon/Javascript-Todo-List-%EB%A7%8C%EB%93%A4%EA%B8%B0-%ED%9
 ![image](https://github.com/user-attachments/assets/c9bfb56a-a384-42a6-a768-5ff67f07edb5)
 
 목록 옆 빈 버튼을 클릭하면 완료했다는 의미로 체크 표시 + 목록에 줄 긋기
-+ 목록을 더블클릭 시 삭제됨
++ 목록을 더블클릭 시 localStorage에서 더블클릭 된 목록이 삭제됨 + html에서도 삭제
 
 
 전체 삭제 버튼을 누르면 localStorage에 저장되었던 모든 목록이 삭제되면서 html창에서도 목록이 모두 삭제됨
